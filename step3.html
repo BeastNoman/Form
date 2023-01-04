@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+    <!-- logo -->
+    <link rel="icon" href="images/logo1.png" type="image/x-icon">
+</head>
+<body>
+    <!-- step 3 -->
+    <h1 id="heading2">Mohammad Noman</h1>
+    <br><br>
+    <h2 style="text-align: center;">Enter Your Review</h2>
+    <hr><br>
+    <center>
+        <table border="1" cellspacing="0" cellpadding="10px">
+            <tr>
+                <div id="div1">
+                <th style="background-color:  rgb(178, 248, 152);"><a href="step1.html" style="text-decoration: none; color: black;">Step 1:Account</a></th>
+                <th style="background-color: rgb(178, 248, 152);"><a href="step2.html" style="text-decoration: none; color: black;">Step 2:Personal Details</a></th>
+                <th style="background-color: rgb(114, 161, 242);"><a href="step3.html" style="text-decoration: none; color: black;">Step 3:Your Review</a></th>
+            </div>
+            </tr>
+        </table><br></center>
+        <fieldset style="width: 450px; height: 400px; margin: auto;">
+            <legend style="font-size: large;">Your Review</legend><br><br>
+            <label>How did you hear about us? </label>
+                <select name="select">
+                    <option value="linkedin">linkedin</option>
+                    <option value="facebook">facebook</option>
+                    <option value="twitter">twitter</option>
+                </select>
+                <br><br>
+                <label>Would you visit again?</br>
+                    <input type="radio" name="answer" value="Yes">Yes
+                    <input type="radio" name="answer" value="No">No
+                    <input type="radio" name="answer" value="Maybe">Maybe
+                    <br><br>
+                <label>Comments:</br>
+                    <textarea name="Comments"cols="30" rows="4" placeholder="Enter your comments here..."></textarea>
+                <br><br>
+                <label>Documents:</br>
+                    <input type="file" name="file">
+                <br><br>
+                <input type="checkbox">Sign me up for email updates
+                <br><br>
+                    <a href="step2.html"><img src="images/back.png" alt="back" width="100px"></a>
+                    <a href="end.html"><img src="images/submit.png" alt="Submit" width="100px"></a>
+        </fieldset>
+    
+</body>
+</html>
